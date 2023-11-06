@@ -29,3 +29,9 @@
 .tableBody tr td{
     padding-top: 10px;
 }
+
+@media (max-width: 767px) {
+    .tabela, .resultado {
+        width: 100%;
+    }
+}

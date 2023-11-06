@@ -18,3 +18,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 767px) {
+    .container {
+        justify-content: start;
+        padding: 15px;
+    }
+}
