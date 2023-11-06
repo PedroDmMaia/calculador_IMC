@@ -39,9 +39,9 @@ function App() {
 
       </div>
 
-      {/* {resultadoVisivel && (
-        )} */}
-      <Resultado resultado={resultado} />
+      {resultadoVisivel && (
+        <Resultado resultado={resultado} />
+      )}
 
     </div>
   )

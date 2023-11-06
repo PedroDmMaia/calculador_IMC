@@ -5,9 +5,9 @@ const Header = () => {
 
     const [nome, setNome] = useState('')
 
-    // useEffect(() => {
-    //     setNome(prompt('Digite seu nome'))
-    // }, [])
+    useEffect(() => {
+        setNome(prompt('Digite seu nome'))
+    }, [])
 
     return (
         <div className={styles.header}>
