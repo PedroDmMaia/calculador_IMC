@@ -15,9 +15,15 @@ form {
 }
 
 
+.span {
+    font-size: 12px;
+    font-weight: normal;
+}
+
 label {
     display: block;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 input {

@@ -27,11 +27,11 @@ function App() {
 
         <form>
           <div>
-            <label htmlFor="Altura">Altura</label>
+            <label htmlFor="Altura">Altura em metros <span className="span">(Por exemplo: 1,70)</span></label>
             <input id="Altura" type="number" placeholder="Sua Altura" onBlur={({ target }) => parseInt(setAltura(target.value))} />
           </div>
           <div>
-            <label htmlFor="Peso">Quilos</label>
+            <label htmlFor="Peso">Peso em kg <span className="span">(Por exemplo: 75)</span></label>
             <input id="Peso" type="number" placeholder="Seu Peso" onBlur={({ target }) => parseInt(setPeso(target.value))} />
           </div>
           <button type="button" onClick={ImcCalc}>Calcular</button>
